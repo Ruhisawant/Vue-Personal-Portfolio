@@ -1,19 +1,16 @@
+<script setup>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+</script>
+
 <template>
-  <div id="app" class="min-h-screen bg-gray-50">
+  <div id="app" class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
     <Header />
-    <main class="container mx-auto px-4 py-8">
-      <router-view />
+    <main class="relative z-10 pt-20 pb-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <router-view />
+      </div>
     </main>
+    <Footer />
   </div>
 </template>
-
-<script>
-import Header from './components/Header.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Header
-  }
-}
-</script>
