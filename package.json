@@ -1,11 +1,11 @@
 {
-  "name": "vite-project",
+  "name": "portfolio-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,10 +14,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "@vitejs/plugin-vue": "^6.0.0",
-    "@vue/tsconfig": "^0.7.0",
     "tailwindcss": "^4.1.10",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5",
-    "vue-tsc": "^2.2.10"
+    "vite": "^6.3.5"
   }
 }
