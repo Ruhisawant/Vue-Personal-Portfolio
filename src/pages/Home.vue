@@ -135,9 +135,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="text-white relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen pt-20">
+  <div class="text-white relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen pt-25">
     <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center px-4 overflow-hidden -mt-20 pt-20">
+    <section class="relative min-h-screen flex items-center justify-center px-4 overflow-hidden -mt-25">
       <!-- Animated Background Elements -->
       <div class="absolute inset-0 overflow-hidden">
         <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-20 rounded-full blur-3xl animate-pulse"></div>
